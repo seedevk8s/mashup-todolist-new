@@ -29,8 +29,8 @@ const TodoHeadBlock = styled.div`
 function TodoHead() {
   return (
     <TodoHeadBlock>
-      <h1>2020년 4월 12일</h1>
-      <div className="day">일요일</div>
+      <h1>2020년 4월 13일</h1>
+      <div className="day">월요일</div>
       <div className="task-left">할 일 2개 남음</div>
     </TodoHeadBlock>
   );
