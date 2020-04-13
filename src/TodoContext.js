@@ -78,6 +78,5 @@ export function useTodoNextId() {
     if(!context) {
         throw new Error('Cannot find TodoProvider');
     }
-
     return context;
 }
