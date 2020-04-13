@@ -50,3 +50,11 @@ export function TodoProvider({ children }) {
         </TodoStateContext.Provider>
     );
 }
+
+export function useTodoState() {
+    return useContext(TodoStateContext);
+}
+
+export function useTodoDispatch() {
+    return useContext(TodoDispatchContext);
+}
